@@ -1,5 +1,7 @@
 
+import 'package:dashboard/pages/Chauffeur.dart';
 import 'package:dashboard/pages/agents.dart';
+import 'package:dashboard/pages/details.dart';
 import 'package:dashboard/pages/flottes.dart';
 import 'package:dashboard/pages/mission.dart';
 import 'package:dashboard/pages/reclamation.dart';
@@ -30,6 +32,7 @@ class MyApp extends StatelessWidget {
         "/mission" : (BuildContext context)=> new Mission(),
         "/agents" : (BuildContext context)=> new Agents(),
         "/vehicle" : (BuildContext context)=> new Vehicle(),
+        "/chaffeur" : (BuildContext context)=> new Chauffeur(),
         //add more routes here
       },
 

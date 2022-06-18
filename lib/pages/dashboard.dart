@@ -181,6 +181,33 @@ class Dashboard extends StatelessWidget {
                 ),
               ),
             ),
+            Card(
+              clipBehavior: Clip.antiAlias,
+              child: InkWell(
+                onTap: () {
+                  Navigator.of(context).pushNamed("/chaffeur");
+                },
+                child: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    children: <Widget>[
+                      AspectRatio(
+                        aspectRatio: 18.0 / 11.0,
+                        child: Image.asset('assets/problem.png'),
+                      ),
+                      Column(
+                        crossAxisAlignment: CrossAxisAlignment.center,
+                        children: <Widget>[
+                          const SizedBox(height: 8.0),
+                          Text('Reclamation' , style: TextStyle(fontSize: 28),),
+                        ],
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+            ),
           ],
       ),
     );
