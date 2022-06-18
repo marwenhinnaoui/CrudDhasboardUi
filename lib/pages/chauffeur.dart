@@ -403,6 +403,7 @@ class _ChauffeurState extends State<Chauffeur> {
                                               child: Text('P', style: TextStyle(fontWeight:
                                                   FontWeight.bold, fontSize: 19),),
                                             ),
+
                                             Column(
                                               mainAxisAlignment: MainAxisAlignment.start,
                                               crossAxisAlignment: CrossAxisAlignment.start,
