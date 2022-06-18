@@ -1,4 +1,7 @@
 # dashboard
+![1](https://user-images.githubusercontent.com/75839370/174322431-7c004382-6155-47d2-8c37-70f5f568e829.PNG)
+![2](https://user-images.githubusercontent.com/75839370/174322477-923e8c23-773c-4af0-b7b4-6fce5e73782c.PNG)
+![3](https://user-images.githubusercontent.com/75839370/174322417-5362e3cd-141a-4f2a-984b-4aa58ee16b0e.PNG)
 
 A new Flutter project.
 
